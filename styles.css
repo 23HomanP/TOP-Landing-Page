@@ -1,0 +1,63 @@
+*{
+    border: 1px solid;
+    font-family: "Roboto", sans-serif;
+}
+#rain_Duck{
+    height:209px;
+
+}
+#quad1{
+    display: flex;
+    height: 275px;
+}
+#quad1 .first{
+    background-color: skyblue;
+    flex:1;
+    justify-content: center;
+}
+#welcome{
+    text-align: left;
+}
+.first h1{
+    font-size: 48px;
+    font-weight:1000;
+    color: white;
+    margin-bottom:0px;
+    margin-left: 40px;
+    margin-top:32px;
+}
+    
+.first p{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 0px 40px;
+}
+.first button{
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    color: Black;
+    background-color: #FFD801;
+    padding: auto;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.first img{
+    margin-top:32px;
+    border-radius: 10px;
+}
+#quad2{
+    background-color: rgb(135, 200, 235);
+}
+#quad2 h2{
+    text-align: center;
+}
+#duck-zoo{
+    display:flex;
+    justify-content:space-evenly
+}
+.Ducky-gallery img{
+    height: 200px;
+}
+#quad3{
+    background-color:rgb(135, 210, 235);
+}
