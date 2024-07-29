@@ -5,6 +5,39 @@
 div{
     display:flex;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+}
+header div{
+    height:50px;
+}
+header div p{
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+header div img{
+    height: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+li{
+    margin: auto 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+li a{
+    color:black;
+    text-decoration: none;
+}
+li a:hover{
+    color:white;
+}
 .center{
     justify-content: center;
     align-items: center;
@@ -152,6 +185,14 @@ div{
     font-size: 20px;
     font-weight: 900;
     margin: 0;
+}
+footer{
+    text-align: center;
+    background-color: skyblue;
+    margin:0;
+}
+footer p{
+    margin: 0px;
 }
 
 
