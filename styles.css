@@ -1,9 +1,13 @@
 *{
-    border: 1px transparent;
+    border: 1px soli;
     font-family: "Roboto", sans-serif;
 }
 div{
-    display:flex
+    display:flex;
+}
+.center{
+    justify-content: center;
+    align-items: center;
 }
 #quad1, #quad2, #quad3, #quad4{
     height: 400px;
@@ -14,14 +18,16 @@ div{
 }
 #quad1{
     background-color: skyblue;
-    display: flex;
-    height: 275px;
-}
-#quad1 .first{
-    flex:1;
     justify-content: center;
+    align-items: center;
 }
+#quad1 #top{
+    height: 50%;
+    width: 75%;
+}
+
 #welcome{
+    flex-direction: column;
     text-align: left;
 }
 .first h1{
@@ -29,13 +35,11 @@ div{
     font-weight:1000;
     color: white;
     margin-bottom:0px;
-    margin-left: 40px;
-    margin-top:32px;
 }
     
 .first p{
     color: rgba(255, 255, 255, 0.932);
-    margin: 0px 40px;
+    font-size: 18px;
 }
 .first button{
     height: 30px;
@@ -44,25 +48,35 @@ div{
     color: Black;
     background-color: #FFD801;
     padding: auto;
-    margin-left: 40px;
-    margin-top: 10px;
 }
-.first img{
-    margin-top:32px;
+#pic{
+    justify-content: left;
+}
+#pic img{
     border-radius: 10px;
+    margin-left: 20px;
 }
 #quad2{
     background-color: rgb(135, 200, 235);
+    flex-direction: column;
 }
 #quad2 h2{
     text-align: center;
+    font-size: 32px;
 }
 #duck-zoo{
     display:flex;
     justify-content:space-evenly
 }
+.Ducky-gallery{
+    flex-direction: column;
+}
 .Ducky-gallery img{
     height: 200px;
+}
+.Ducky-gallery p{
+    font-size: 12px;
+    font-weight: 500;
 }
 #quad3{
     background-color:rgb(135, 210, 235);
@@ -134,6 +148,7 @@ div{
     border-radius: 15%;
     background-color: orange;
     color: white;
+    border: transparent;
     font-size: 20px;
     font-weight: 900;
     margin: 0;
